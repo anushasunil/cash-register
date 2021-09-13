@@ -10,15 +10,11 @@ checkButton.addEventListener("click", function validateBillandCashAmount(){
     hideMessage()
     if(billAmount.value > 0)
     {
-        console.log("amount received", cashGiven.value)
-        console.log("amount to be paid", billAmount.value)
-        console.log(cashGiven.value - billAmount.value)
         if(Number(cashGiven.value) >= Number(billAmount.value))
         {
             const amountToBeReturned = cashGiven.value - billAmount.value;
-            showMessage("");
+            showMessage("Thankyou for the payment. 🙂");
             calculateChange(amountToBeReturned);
-            console.log("here all normal")
         }
         else
         {
