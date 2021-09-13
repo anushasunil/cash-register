@@ -1,9 +1,83 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@1&display=swap');
 
+
+* {
+    margin:auto;
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 0.7px;
+}
+
+:root {
+    --textColor : cornsilk;
+    --bgColor : rgb(48, 70, 35);
+    --inputBox: rgb(80, 92, 71);
+    --inputHover: rgb(124,134,117);
 }
 
 .container {
+    width: 40vw;
+    background-color: var(--bgColor);
+    padding: 2rem;
+
+}
+
+.heading {
+    color: var(--textColor);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.description {
+    padding: 0.4rem;;
+    color: var(--textColor);
+    font-size: 1.1rem;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#bill-amount-label, #bill-received-label, caption {
+   margin-left: 1rem;
+   color: var(--textColor);
+   font-size: 1.2rem;
+}
+
+input {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    border-radius: 0.51rem;
+    width: 22rem; 
+    height: 2rem;
+    font-size: 1.5rem;
+    background-color: var(--inputBox);
+    color: whitesmoke;
+    caret-color: whitesmoke;
 }
+input:hover {
+    border-color: cornsilk;
+    background-color: var(--inputHover);
+}
+
+.btn-check, .btn-next{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--textColor);
+    font-size: 1rem;
+    display: block;
+    color: var(--bgColor);
+    cursor: pointer;
+}
+
+.change-table {
+    border: 0.05rem solid var(--textColor)
+}
+
+.no-of-notes ,td, th{
+    padding: 0.5rem;
+    border: 0.1rem solid cornsilk;
+    background-color: cornsilk;
+}
+
+
+
