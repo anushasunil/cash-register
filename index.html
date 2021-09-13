@@ -14,39 +14,50 @@
             Enter the bill amount and cash register will tell 
             the minimum number of notes to return as change.
         </p>
-        <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="number"/>
-        <label for="bill-received">Amount Received:</label>
-        <input id="bill-received" type="number">
-        <button class="btn-check">Check</button>
-        <p id="error-message"></p>
-        <table class="change-table">
-            <caption>
-                Return Change
-            </caption>
-            <tr>
-                <th>No of Notes</th>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-                <td class="no-of-notes"></td>
-            </tr>
-            <tr>
-                <th>Note</th>
-                <td>2000</td>
-                <td>500</td>
-                <td>100</td>
-                <td>50</td>
-                <td>20</td>
-                <td>10</td>
-                <td>5</td>
-                <td>1</td>
-            </tr>
-        </table>
+
+        <label for="bill-amount" id="bill-amount-label">Bill Amount:</label>
+        <input id="bill-amount" type="text"/>
+
+        <button class="btn-next">Next</button>
+
+        <p class="validate-bill-amount"></p>
+
+        <div class="bill-amount-validation">
+            <label for="bill-received" id="bill-received-label">Amount Received:</label>
+            <input id="bill-received" type="text">
+    
+            <button class="btn-check" >Check</button>
+    
+            <p id="error-message"></p>
+    
+            <table class="change-table">
+                <caption>
+                    Return Change
+                </caption>
+                <tr>
+                    <th>No of Notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
+                <tr>
+                    <th>Note</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>
