@@ -34,8 +34,7 @@
     opacity: 0.7;
     text-align: center;
 }
-
-#bill-amount-label, #bill-received-label, caption {
+label {
    margin-left: 20%;
    color: var(--textColor);
    font-size: 1.2rem;
@@ -69,7 +68,7 @@ input:hover {
 }
 
 .change-table {
-    border: 0.05rem solid var(--textColor)
+    border: 0.05rem solid var(--textColor);
 }
 
 .no-of-notes ,td, th{
