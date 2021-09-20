@@ -67,7 +67,9 @@ input:hover {
     cursor: pointer;
 }
 
-
+.table-frame {
+    max-width: fit-content;
+}
 
 .change-table {
     width: fit-content;
