@@ -67,8 +67,12 @@ input:hover {
     cursor: pointer;
 }
 
+
+
 .change-table {
+    width: fit-content;
     border: 0.05rem solid var(--textColor);
+
 }
 
 .no-of-notes ,td, th{
