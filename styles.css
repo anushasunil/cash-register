@@ -85,3 +85,49 @@ input:hover {
 
 
 
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 50%;
+    font-size: 1.5rem;
+    text-align: center;
+    color:var(--bgColor);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(255,248,220,0.8);
+    padding-top: 1rem;
+}
+
+footer .link {
+    color:var(--bgColor);
+}
+
+footer ul {
+    padding-inline-start: 0px;
+
+}
+
+footer .footer-header {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+footer .link:hover {
+    text-decoration: underline;
+}
+
+.link {
+    max-width: min-content;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
