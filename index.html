@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,17 @@
     <title>Cash Register</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <h1 class="heading">Cash Register Manager</h1>
         <p class="description">
-            Enter the bill amount and cash register will tell 
+            Enter the bill amount and cash register will tell
             the minimum number of notes to return as change.
         </p>
 
         <label for="bill-amount" id="bill-amount-label">Bill Amount:</label>
-        <input id="bill-amount" type="text"/>
+        <input id="bill-amount" type="text" />
 
         <button class="btn-next">Next</button>
 
@@ -25,9 +27,9 @@
         <div class="bill-amount-validation">
             <label for="bill-received" id="bill-received-label">Amount Received:</label>
             <input id="bill-received" type="text">
-    
-            <button class="btn-check" >Check</button>
-    
+
+            <button class="btn-check">Check</button>
+
             <p id="error-message"></p>
             <div class="table-frame">
                 <table class="change-table">
@@ -72,4 +74,5 @@
     </footer>
 </body>
 <script src="index.js"></script>
+
 </html>
