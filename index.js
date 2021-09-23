@@ -57,11 +57,11 @@ function hideValidationMessage() {
 
 function showMessage(msg) {
     message.style.display = "block";
-    message.style.marginLeft = '1rem';
     message.style.color = 'var(--textColor)';
     message.style.fontSize = '1.2rem';
     message.style.paddingTop = "1rem";
     message.style.paddingBottom = "1rem";
+    message.style.textAlign = "center";
     message.innerText = msg;
 }
 
